@@ -77,7 +77,7 @@ function ProductPage() {
     const handleFilterChange = (e) => {
         const selectedFilter = e.target.value;
         setFilter(selectedFilter);
-        FilterProduct(selectedFilter); // Применяем фильтрацию сразу после выбора
+        FilterProduct(selectedFilter); 
     };
 
     return (
